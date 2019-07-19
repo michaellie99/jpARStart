@@ -16,7 +16,8 @@ class CarouselViewController: UIViewController {
 
     
     var arrData = [ModelCollectionFlowLayout]()
-    
+    let funFacts = ["Nigiri is meant to be eaten upside down for the best sushi dining experience.","Avocado, cucumber, and carrots are the most popular veggies used in sushi.","Gunkan sushi is also called battleship sushi or Gundam sushi."]
+    @IBOutlet weak var funFact: UILabel!
     @IBOutlet weak var btnStart: UIButton!
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var jpnTxt: UILabel!
@@ -104,6 +105,8 @@ class CarouselViewController: UIViewController {
         }else{
             btnStart.isEnabled = true
         }
+        
+        funFact.text = funFacts[currentPage]
         pageControl.currentPage = currentPage
     }
 
