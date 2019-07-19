@@ -137,7 +137,9 @@ extension CarouselViewController: UICollectionViewDelegate, UICollectionViewData
         return cell
     }
     
-    
+    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
+        
+    }
     
     
     
