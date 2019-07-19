@@ -56,7 +56,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DOw-bS-hXa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-680" y="21"/>
+            <point key="canvasLocation" x="-1539" y="21"/>
         </scene>
         <!--Intro2 View Controller-->
         <scene sceneID="MY6-7h-nhZ">
@@ -109,9 +109,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="experience of proper sushi eating" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="23e-Qb-lTS">
-                                <rect key="frame" x="20" y="289" width="374" height="233"/>
+                                <rect key="frame" x="20" y="293" width="374" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -146,7 +146,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="experience of proper sushi eating" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vWu-IP-omE">
                                 <rect key="frame" x="20" y="288" width="374" height="233"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="33"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -157,7 +157,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yd0-Xn-8ED" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-75" y="-798"/>
+            <point key="canvasLocation" x="-794.20289855072474" y="20.758928571428569"/>
         </scene>
         <!--Page View Controller-->
         <scene sceneID="Que-xJ-dAW">
@@ -166,35 +166,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DMa-mK-mCG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2425" y="21"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="tXr-a1-R10">
-            <objects>
-                <viewController id="BV1-FR-VrT" customClass="ViewController" customModule="jpARStart" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="U0K-SW-4ec">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BrB-h1-WRS">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
-                            </arscnView>
-                        </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="GsS-dJ-CKf"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" id="VpT-BR-CcM"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="XyZ-9z-H8e"/>
-                            <constraint firstItem="BrB-h1-WRS" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="rJc-2c-zQA"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>
-                    </view>
-                    <connections>
-                        <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1597" y="21"/>
         </scene>
         <!--Carousel View Controller-->
         <scene sceneID="T4m-JV-xhl">
@@ -266,7 +237,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
-                                    <segue destination="BV1-FR-VrT" kind="show" id="lAC-Eh-vye"/>
+                                    <segue destination="ECi-Xl-ma2" kind="show" id="Kpb-KS-dyE"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="にぎり寿司" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zD5-S0-1K9">
@@ -276,14 +247,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fun facts" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAI-PK-q92">
-                                <rect key="frame" x="50" y="710" width="118" height="21"/>
+                                <rect key="frame" x="50" y="685" width="76" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nigiri is meant to be eaten upside down for the best sushi dining experience" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep3-K7-FDl">
-                                <rect key="frame" x="50" y="718" width="314" height="76"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lorem ipsum dolor sit amet Lorem ipsum dolor sit ametLorem ipsum dolor sit ametLorem ipsum dolor sit amet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ep3-K7-FDl">
+                                <rect key="frame" x="50" y="703" width="314" height="76"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -312,7 +283,6 @@
                     <connections>
                         <outlet property="btnStart" destination="EER-84-h9o" id="6tk-Ed-11G"/>
                         <outlet property="collectionView" destination="8f0-OI-i5f" id="tGI-Z2-aTQ"/>
-                        <outlet property="funFact" destination="Ep3-K7-FDl" id="0Ug-eb-h3I"/>
                         <outlet property="jpnTxt" destination="zD5-S0-1K9" id="O8W-Xd-Z0J"/>
                         <outlet property="lblItemName" destination="xMy-7s-dWw" id="FoS-a9-aAA"/>
                         <outlet property="pageControl" destination="Nqt-GY-pj0" id="jpD-3C-Vlv"/>
@@ -323,36 +293,50 @@
             <point key="canvasLocation" x="779.71014492753625" y="20.758928571428569"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="SCg-6f-aSl">
+        <scene sceneID="n8D-Vw-ff5">
             <objects>
-                <viewController id="GVd-0W-Qc8" customClass="ViewController" customModule="jpARStart" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oQG-vH-isz">
+                <viewController id="ECi-Xl-ma2" customClass="ARViewController" customModule="jpARStart" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qtZ-Bb-heo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Ui-2w-aph">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pp7-Ac-VVm">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PoQ-Cd-At8">
+                                <rect key="frame" x="20" y="44" width="46" height="44"/>
+                                <state key="normal" title="Button" image="Back Button"/>
+                                <connections>
+                                    <action selector="backButton:" destination="ECi-Xl-ma2" eventType="touchUpInside" id="Xpa-Ng-qWE"/>
+                                    <segue destination="2SQ-Vb-9gB" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="m44-S7-WUn"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="9Ui-2w-aph" firstAttribute="top" secondItem="oQG-vH-isz" secondAttribute="top" id="33j-KZ-qhe"/>
-                            <constraint firstItem="9Ui-2w-aph" firstAttribute="leading" secondItem="Qd4-eX-lyD" secondAttribute="leading" id="CR0-OL-41R"/>
-                            <constraint firstItem="9Ui-2w-aph" firstAttribute="bottom" secondItem="Qd4-eX-lyD" secondAttribute="bottom" id="snE-IA-dca"/>
-                            <constraint firstItem="9Ui-2w-aph" firstAttribute="trailing" secondItem="Qd4-eX-lyD" secondAttribute="trailing" id="uQA-Zs-Gem"/>
+                            <constraint firstItem="Pp7-Ac-VVm" firstAttribute="leading" secondItem="qtZ-Bb-heo" secondAttribute="leading" id="6vn-O5-CH8"/>
+                            <constraint firstAttribute="bottom" secondItem="Pp7-Ac-VVm" secondAttribute="bottom" id="A0D-d6-9fm"/>
+                            <constraint firstItem="Pp7-Ac-VVm" firstAttribute="trailing" secondItem="qtZ-Bb-heo" secondAttribute="trailing" id="FNy-s7-O8G"/>
+                            <constraint firstItem="ccm-Me-0in" firstAttribute="trailing" secondItem="PoQ-Cd-At8" secondAttribute="trailing" constant="348" id="KJu-bK-X7O"/>
+                            <constraint firstItem="PoQ-Cd-At8" firstAttribute="leading" secondItem="ccm-Me-0in" secondAttribute="leading" constant="20" id="PQS-jr-t0n"/>
+                            <constraint firstItem="ccm-Me-0in" firstAttribute="bottom" secondItem="PoQ-Cd-At8" secondAttribute="bottom" constant="774" id="SfD-33-wgj"/>
+                            <constraint firstItem="Pp7-Ac-VVm" firstAttribute="top" secondItem="qtZ-Bb-heo" secondAttribute="top" id="agu-FS-871"/>
+                            <constraint firstItem="PoQ-Cd-At8" firstAttribute="top" secondItem="ccm-Me-0in" secondAttribute="top" id="pvR-Fq-Xvn"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="Qd4-eX-lyD"/>
+                        <viewLayoutGuide key="safeArea" id="ccm-Me-0in"/>
                     </view>
                     <connections>
-                        <outlet property="sceneView" destination="9Ui-2w-aph" id="LTr-wQ-EDe"/>
+                        <outlet property="sceneView" destination="Pp7-Ac-VVm" id="FnI-yJ-UdL"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="O8M-VT-DRm" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UU1-9d-qn2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="2SQ-Vb-9gB" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1597" y="21"/>
+            <point key="canvasLocation" x="1636" y="21"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Back Button" width="505" height="505"/>
         <image name="Button Start 4" width="1809" height="496"/>
     </resources>
 </document>
